@@ -2,7 +2,6 @@ import React, { Component,Fragment } from "react";
 import styles from "./layout.module.scss";
 import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
 import Toolbar from "../../components/Navigation/Toolbar/Toolbar";
-import { connect } from "react-redux";
 class Layout extends Component {
     state = {
         showSideDrawer: false
@@ -31,11 +30,6 @@ class Layout extends Component {
             </Fragment>
         );
     }
-}
-// const mapStateToProps = state => {
-//     return {
-//         isAuthenticated: state.auth.token !== null
-//     }
-// };
+};
 
 export default Layout;

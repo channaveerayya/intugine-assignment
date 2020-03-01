@@ -15,17 +15,20 @@ const asyncDashboard = asyncComponent(() => {
 class App extends Component {
   componentDidMount() {
     this.props.onTryAutoLogin();
+    if (!this.props.login.name) {
+      this.props.history.push('/login')
+    } 
   } render() {
     let routes = (
       <Switch>
-        <Route path="/" exact component={asyncLogin} />
+        <Route path="/login" exact component={asyncLogin} />
       </Switch>
     );
-
     if (this.props.login.name) {
       routes = (
         <Switch>
           <Route path="/" exact component={asyncDashboard} />
+          <Redirect to="/" />
         </Switch>
       );
     }

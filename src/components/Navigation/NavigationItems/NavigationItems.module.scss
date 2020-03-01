@@ -7,6 +7,22 @@
   align-items: center;
   height: 100%;
 
+  .profile{
+     width: 2rem;
+     height: 2rem;
+     padding: .5rem;
+     margin-top: -.8rem;
+    border-radius: 50%;
+     background-color: #c0c3c9;
+     img {
+       padding-left: .2rem;
+     }
+  }
+.downArrow {
+  font-size: 30px;
+  margin-left: -.7rem;
+  margin-top: -.5rem;
+}
   @media(min-width:600px) {
 
     flex-flow: row;

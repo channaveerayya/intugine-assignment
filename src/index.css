@@ -15,7 +15,7 @@ code {
 *::-webkit-scrollbar {
   display: unset;
   -webkit-appearance: none;
-  width: 5px;
+  width: 9px;
 }
 
 ::-webkit-scrollbar-track {
@@ -23,7 +23,7 @@ code {
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #2e5bff;
   -webkit-box-shadow: 0 0 1px #2e5bff;
 

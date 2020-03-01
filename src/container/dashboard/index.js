@@ -5,10 +5,7 @@ import axios from '../../axios-interceptor'
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler'
 import * as ACTIONS from "../../store/actions/index";
 import { connect } from "react-redux";
-
-// import { connect } from 'react-redux';
-// import * as ACTIONS from '../../store/actions/index';
-
+import Loading from '../../components/Spinner/Spinner'
 
 class Dashboard extends Component {
     state = {
@@ -27,7 +24,7 @@ class Dashboard extends Component {
                 >
                     <h1>hello</h1>
                 </Modal>
-                <DashboardComponent />
+                {this.props.deliveriesData.length ? <DashboardComponent deliveriesData={this.props.deliveriesData} /> : <Loading />}
             </Fragment>
         );
     }
