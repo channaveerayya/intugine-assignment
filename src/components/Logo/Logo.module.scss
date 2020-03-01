@@ -1,0 +1,19 @@
+.Logo {
+    background-color: white;
+    padding: 8px;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: block;
+    font-family: Nunito,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.43rem;
+    line-height: 1.5;
+    font-weight: 600;
+    text-decoration: inherit;
+    text-transform: inherit;
+    img {
+        height: 100%;
+        vertical-align: middle;
+    }
+}
