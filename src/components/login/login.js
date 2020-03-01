@@ -19,6 +19,7 @@ class Login extends Component {
     render() {
         return (
             <div className={styles.login}>
+                <h1>Login</h1>
                 <form onSubmit={this.onSubmitHandler} >
                     <div className={styles.Input}>
                         <input type="text" name="name" onChange={this.handleOnChange} className={styles.InputElement} placeholder="Name" required />
