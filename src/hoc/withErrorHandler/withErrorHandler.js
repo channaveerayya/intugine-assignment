@@ -10,6 +10,7 @@ const withErrorHandler = (WrappedComponent, axios) => {
         constructor(props) {
             super(props)
           this.reqInterceptor = axios.interceptors.request.use(req => {
+            req.headers.Authorization = "Bearer tTU3gFVUdP"
                 this.setState({ error: null });
                 return req
                 

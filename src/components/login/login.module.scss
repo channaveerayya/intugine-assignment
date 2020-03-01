@@ -1,0 +1,67 @@
+.login {
+    width: 90%;
+    margin: 50% auto;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+
+    .Input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .InputElement {
+        outline: none;
+        border: 1px solid #ccc;
+        background-color: white;
+        font: inherit;
+        padding: 6px 10px;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+
+        &:focus {
+            outline: none;
+            background-color: #ccc;
+        }
+    }
+
+    button {
+        color: #fff !important;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #2e5bff;
+        padding: 10px;
+        width: 50%;
+        border-radius: 50px;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+
+        &:hover {
+            text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+            -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+            -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+            transition: all 0.4s ease 0s;
+            cursor: pointer;
+        }
+    }
+
+
+}
+
+@media (min-width: 600px) {
+    .login {
+        width: 500px;
+        margin: 15% auto;
+    }
+}
+
+.ErrorMessage {
+    color: red;
+    font-weight: bold;
+    font-size: 33px;
+}

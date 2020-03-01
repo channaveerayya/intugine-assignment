@@ -1,0 +1,8 @@
+export const DELIVERIES = "DELIVERIES";
+export const DELIVERIES_SUCCESS = "DELIVERIES_SUCCESS";
+export const DELIVERIES_FAIL = "DELIVERIES_FAIL";
+
+export const LOGIN = "LOGIN";
+
+
+
