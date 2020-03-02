@@ -27,12 +27,14 @@ export default class Dashboard extends Component {
             OOD: [],
             NFI: [],
         }
+        
         if (deliveriesData.length) {
-            deliveriesData.map(deliveries => {
+              deliveriesData.map(deliveries => {
                 if (deliveriesObj[deliveries.current_status_code]) {
                     deliveriesObj[deliveries.current_status_code].push(deliveries)
-                }
-            })
+                 }
+                 return null
+             })
         }
         this.setState({ filterObject: { ...deliveriesObj } }, () => {
             let filterArray = []
@@ -82,10 +84,13 @@ export default class Dashboard extends Component {
             }
             return dd + '/' + mm + '/' + yyyy;
         }
+        const style = {
+            cursor: 'pointer'
+        }
         return <div className={styles.tableParent}>
             <table>
                 <thead><tr>
-                    <th onClick={this.handleSort}>AWB NUMBER &nbsp;{this.state.sort ? <span>&#8743;</span> : <span>&or;</span>} </th>
+                    <th onClick={this.handleSort} style={style} title="sort">AWB NUMBER &nbsp;{this.state.sort ? <span>&#8743;</span> : <span>&or;</span>} </th>
                     <th>TRANSPORTER</th>
                     <th>SOURCE</th>
                     <th>DESTINATION</th>
@@ -127,8 +132,9 @@ export default class Dashboard extends Component {
             <div className={styles.filterPanel}>
                 {filterArray.map((res, i) => {
                     const style = {
-                        backgroundColor: this.state.filterClick == i ? "#2e5bff" : '#d5deff',
+                        backgroundColor: this.state.filterClick === i ? "#2e5bff" : '#d5deff',
                         color: this.state.filterClick === i ? "#eef3f5" : '#2e5bff',
+                        cursor:'pointer'
                     }
                     return <div key={i} className={styles.filter} style={style} onClick={() => this.handleFilter(i, res)}>
                         <div className={styles.text}> {filterArrayKeys[i]}</div>
