@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/intugine-assignment/static/css/main.4e96f569.chunk.css",
+    "main.js": "/intugine-assignment/static/js/main.184e39b1.chunk.js",
+    "main.js.map": "/intugine-assignment/static/js/main.184e39b1.chunk.js.map",
+    "runtime-main.js": "/intugine-assignment/static/js/runtime-main.fda253c5.js",
+    "runtime-main.js.map": "/intugine-assignment/static/js/runtime-main.fda253c5.js.map",
+    "static/js/2.16c6dd9c.chunk.js": "/intugine-assignment/static/js/2.16c6dd9c.chunk.js",
+    "static/js/2.16c6dd9c.chunk.js.map": "/intugine-assignment/static/js/2.16c6dd9c.chunk.js.map",
+    "static/css/3.32f6d7e9.chunk.css": "/intugine-assignment/static/css/3.32f6d7e9.chunk.css",
+    "static/js/3.6412e2e7.chunk.js": "/intugine-assignment/static/js/3.6412e2e7.chunk.js",
+    "static/js/3.6412e2e7.chunk.js.map": "/intugine-assignment/static/js/3.6412e2e7.chunk.js.map",
+    "static/css/4.fd375434.chunk.css": "/intugine-assignment/static/css/4.fd375434.chunk.css",
+    "static/js/4.d57e17be.chunk.js": "/intugine-assignment/static/js/4.d57e17be.chunk.js",
+    "static/js/4.d57e17be.chunk.js.map": "/intugine-assignment/static/js/4.d57e17be.chunk.js.map",
+    "index.html": "/intugine-assignment/index.html",
+    "precache-manifest.7d31065f34377fa87be1f9af0c60ce72.js": "/intugine-assignment/precache-manifest.7d31065f34377fa87be1f9af0c60ce72.js",
+    "service-worker.js": "/intugine-assignment/service-worker.js",
+    "static/css/3.32f6d7e9.chunk.css.map": "/intugine-assignment/static/css/3.32f6d7e9.chunk.css.map",
+    "static/css/4.fd375434.chunk.css.map": "/intugine-assignment/static/css/4.fd375434.chunk.css.map",
+    "static/css/main.4e96f569.chunk.css.map": "/intugine-assignment/static/css/main.4e96f569.chunk.css.map",
+    "static/js/2.16c6dd9c.chunk.js.LICENSE.txt": "/intugine-assignment/static/js/2.16c6dd9c.chunk.js.LICENSE.txt",
+    "static/media/destination.svg": "/intugine-assignment/static/media/destination.85f9fdcc.svg",
+    "static/media/logo.svg": "/intugine-assignment/static/media/logo.877653ae.svg",
+    "static/media/profile.svg": "/intugine-assignment/static/media/profile.52b703a8.svg",
+    "static/media/warehouse.svg": "/intugine-assignment/static/media/warehouse.1f5bfd3e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fda253c5.js",
+    "static/js/2.16c6dd9c.chunk.js",
+    "static/css/main.4e96f569.chunk.css",
+    "static/js/main.184e39b1.chunk.js"
+  ]
+}
